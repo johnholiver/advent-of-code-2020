@@ -6,7 +6,11 @@ import (
 )
 
 func Test_recursiveFuelPerModule(t *testing.T) {
-	assert.Equal(t, 2, recursiveFuelPerModule(14))
-	assert.Equal(t, 966, recursiveFuelPerModule(1969))
-	assert.Equal(t, 50346, recursiveFuelPerModule(100756))
+	i, j, k := threeElementsThatSum2020([]int{1, 2, 2017})
+	assert.Equal(t, i, 1)
+	assert.Equal(t, j, 2)
+	assert.Equal(t, k, 2017)
+	i, j = twoElementsThatSum2020([]int{2019, 1})
+	assert.Equal(t, i, 2019)
+	assert.Equal(t, j, 1)
 }

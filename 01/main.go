@@ -40,28 +40,25 @@ func part1(file *os.File) string {
 	return strconv.Itoa(e1 * e2)
 }
 
-func twoElementsThatSum2020(expenseReport []int) (int,int) {
+func twoElementsThatSum2020(expenseReport []int) (int, int) {
 	for i := 0; i < len(expenseReport); i++ {
 		e1 := expenseReport[i]
-		for j := i+1; j < len(expenseReport); j++ {
+		for j := i + 1; j < len(expenseReport); j++ {
 			e2 := expenseReport[j]
 			if e1+e2 == 2020 {
-				return e1,e2
+				return e1, e2
 			}
 		}
 	}
-	return 0,0
+	return 0, 0
 }
 
-func threeElementsThatSum2020(expenseReport []int) (int,int,int) {
+func threeElementsThatSum2020(expenseReport []int) (int, int, int) {
 	for i := 0; i < len(expenseReport); i++ {
 		e1 := expenseReport[i]
-		for j := i+1; j < len(expenseReport); j++ {
+		for j := i + 1; j < len(expenseReport); j++ {
 			e2 := expenseReport[j]
-			for k := i+1; k < len(expenseReport); k++ {
-				if k==j {
-					continue
-				}
+			for k := j + 1; k < len(expenseReport); k++ {
 				e3 := expenseReport[k]
 				if e1+e2+e3 == 2020 {
 					return e1, e2, e3
