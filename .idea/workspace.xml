@@ -10,10 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf34d65-6bb0-44d5-85f4-190ad53b0e51" name="Default Changelist" comment="">
+    <list default="true" id="faf34d65-6bb0-44d5-85f4-190ad53b0e51" name="Default Changelist" comment="Solution Day 2&#10;&#10;- Add template for clean folder">
+      <change afterPath="$PROJECT_DIR$/03/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/main_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/01/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/01/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/template/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/template/main_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,7 @@
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -48,13 +51,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/johnholiver/advent-of-code-2020/template">
-    <configuration name="go build github.com/johnholiver/advent-of-code-2020/01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build github.com/johnholiver/advent-of-code-2020/03">
+    <configuration name="go build github.com/johnholiver/advent-of-code-2020/03" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2019" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/01/main.go" />
-      <package value="github.com/johnholiver/advent-of-code-2020/01" />
+      <filePath value="$PROJECT_DIR$/03/main.go" />
+      <package value="github.com/johnholiver/advent-of-code-2020/03" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -67,44 +70,45 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_traverseForest in github.com/johnholiver/advent-of-code-2020/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2019" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/02/main.go" />
-      <package value="github.com/johnholiver/advent-of-code-2020" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_isValid in github.com/johnholiver/advent-of-code-2020/02" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code-2019" />
-      <working_directory value="$PROJECT_DIR$/02" />
+      <working_directory value="$PROJECT_DIR$/03" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/johnholiver/advent-of-code-2020/02" />
+      <package value="github.com/johnholiver/advent-of-code-2020/03" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTest_isValid\E$" />
+      <pattern value="^\QTest_traverseForest\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_isValid2 in github.com/johnholiver/advent-of-code-2020/02" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_traverseForest2 in github.com/johnholiver/advent-of-code-2020/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2019" />
-      <working_directory value="$PROJECT_DIR$/02" />
+      <working_directory value="$PROJECT_DIR$/03" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/johnholiver/advent-of-code-2020/02" />
+      <package value="github.com/johnholiver/advent-of-code-2020/03" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTest_isValid2\E$" />
+      <pattern value="^\QTest_traverseForest2\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/johnholiver/advent-of-code-2020/03" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2019" />
+      <working_directory value="$PROJECT_DIR$/03" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/johnholiver/advent-of-code-2020/03" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/johnholiver/advent-of-code-2020/03" />
+        <item itemvalue="Go Test.Test_traverseForest2 in github.com/johnholiver/advent-of-code-2020/03" />
+        <item itemvalue="Go Test.Test_traverseForest in github.com/johnholiver/advent-of-code-2020/03" />
+        <item itemvalue="Go Test.go test github.com/johnholiver/advent-of-code-2020/03" />
         <item itemvalue="Go Build.go build github.com/johnholiver/advent-of-code-2020/template" />
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Test.Test_isValid2 in github.com/johnholiver/advent-of-code-2020/02" />
-        <item itemvalue="Go Test.Test_isValid in github.com/johnholiver/advent-of-code-2020/02" />
-        <item itemvalue="Go Build.go build github.com/johnholiver/advent-of-code-2020/01" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +126,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Solution Day 2&#10;&#10;- Add template for clean folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution Day 2&#10;&#10;- Add template for clean folder" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -136,61 +145,95 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2200" y="392" key="#Go_Modules/3360.23.1920.1057/0.23.1440.788/1440.23.1920.1057@1440.23.1920.1057" timestamp="1600686057311" />
-    <state width="1878" height="260" key="GridCell.Tab.0.bottom" timestamp="1606906476365">
+    <state x="1824" y="222" key="DiffContextDialog" timestamp="1606980076624">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1824" y="222" key="DiffContextDialog/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606980076624" />
+    <state width="1878" height="260" key="GridCell.Tab.0.bottom" timestamp="1606980969084">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="260" key="GridCell.Tab.0.bottom/3360.23.1920.1057/0.23.1440.788/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606813138483" />
     <state width="1878" height="260" key="GridCell.Tab.0.bottom/3360.23.1920.1057/0.23.1440.792/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606805905809" />
     <state width="1878" height="260" key="GridCell.Tab.0.bottom/3360.23.1920.1057/0.23.1440.795/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606905393953" />
-    <state width="1878" height="260" key="GridCell.Tab.0.bottom/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606906476365" />
-    <state width="1878" height="260" key="GridCell.Tab.0.center" timestamp="1606906476364">
+    <state width="1878" height="260" key="GridCell.Tab.0.bottom/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606980969084" />
+    <state width="1878" height="260" key="GridCell.Tab.0.center" timestamp="1606980969083">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="260" key="GridCell.Tab.0.center/3360.23.1920.1057/0.23.1440.788/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606813138481" />
     <state width="1878" height="260" key="GridCell.Tab.0.center/3360.23.1920.1057/0.23.1440.792/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606805905808" />
     <state width="1878" height="260" key="GridCell.Tab.0.center/3360.23.1920.1057/0.23.1440.795/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606905393942" />
-    <state width="1878" height="260" key="GridCell.Tab.0.center/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606906476364" />
-    <state width="1878" height="260" key="GridCell.Tab.0.left" timestamp="1606906476364">
+    <state width="1878" height="260" key="GridCell.Tab.0.center/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606980969083" />
+    <state width="1878" height="260" key="GridCell.Tab.0.left" timestamp="1606980969082">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="260" key="GridCell.Tab.0.left/3360.23.1920.1057/0.23.1440.788/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606813138480" />
     <state width="1878" height="260" key="GridCell.Tab.0.left/3360.23.1920.1057/0.23.1440.792/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606805905807" />
     <state width="1878" height="260" key="GridCell.Tab.0.left/3360.23.1920.1057/0.23.1440.795/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606905393941" />
-    <state width="1878" height="260" key="GridCell.Tab.0.left/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606906476364" />
-    <state width="1878" height="260" key="GridCell.Tab.0.right" timestamp="1606906476364">
+    <state width="1878" height="260" key="GridCell.Tab.0.left/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606980969082" />
+    <state width="1878" height="260" key="GridCell.Tab.0.right" timestamp="1606980969084">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="260" key="GridCell.Tab.0.right/3360.23.1920.1057/0.23.1440.788/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606813138481" />
     <state width="1878" height="260" key="GridCell.Tab.0.right/3360.23.1920.1057/0.23.1440.792/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606805905808" />
     <state width="1878" height="260" key="GridCell.Tab.0.right/3360.23.1920.1057/0.23.1440.795/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606905393950" />
-    <state width="1878" height="260" key="GridCell.Tab.0.right/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606906476364" />
-    <state width="1878" height="358" key="GridCell.Tab.1.bottom" timestamp="1606906395520">
+    <state width="1878" height="260" key="GridCell.Tab.0.right/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606980969084" />
+    <state width="1878" height="358" key="GridCell.Tab.1.bottom" timestamp="1606980961513">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="322" key="GridCell.Tab.1.bottom/3360.23.1920.1057/0.23.1440.792/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606805479124" />
-    <state width="1878" height="358" key="GridCell.Tab.1.bottom/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606906395520" />
-    <state width="1878" height="358" key="GridCell.Tab.1.center" timestamp="1606906395518">
+    <state width="1878" height="358" key="GridCell.Tab.1.bottom/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606980961513" />
+    <state width="1878" height="358" key="GridCell.Tab.1.center" timestamp="1606980961512">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="322" key="GridCell.Tab.1.center/3360.23.1920.1057/0.23.1440.792/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606805479123" />
-    <state width="1878" height="358" key="GridCell.Tab.1.center/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606906395518" />
-    <state width="1878" height="358" key="GridCell.Tab.1.left" timestamp="1606906395518">
+    <state width="1878" height="358" key="GridCell.Tab.1.center/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606980961512" />
+    <state width="1878" height="358" key="GridCell.Tab.1.left" timestamp="1606980961511">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="322" key="GridCell.Tab.1.left/3360.23.1920.1057/0.23.1440.792/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606805479123" />
-    <state width="1878" height="358" key="GridCell.Tab.1.left/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606906395518" />
-    <state width="1878" height="358" key="GridCell.Tab.1.right" timestamp="1606906395519">
+    <state width="1878" height="358" key="GridCell.Tab.1.left/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606980961511" />
+    <state width="1878" height="358" key="GridCell.Tab.1.right" timestamp="1606980961512">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="322" key="GridCell.Tab.1.right/3360.23.1920.1057/0.23.1440.792/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606805479124" />
-    <state width="1878" height="358" key="GridCell.Tab.1.right/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606906395519" />
+    <state width="1878" height="358" key="GridCell.Tab.1.right/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606980961512" />
+    <state x="1824" y="222" key="MergeDialog" timestamp="1606906923733">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1824" y="222" key="MergeDialog/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606906923733" />
+    <state x="2041" y="320" key="MultipleFileMergeDialog" timestamp="1606906923811">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2041" y="320" key="MultipleFileMergeDialog/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606906923811" />
+    <state x="2172" y="261" key="RollbackChangesDialog" timestamp="1606980077755">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2172" y="261" key="RollbackChangesDialog/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606980077755" />
     <state x="1909" y="190" key="SettingsEditor" timestamp="1600686100007">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="1909" y="190" key="SettingsEditor/3360.23.1920.1057/0.23.1440.788/1440.23.1920.1057@1440.23.1920.1057" timestamp="1600686100007" />
+    <state x="2000" y="278" key="Vcs.Push.Dialog.v2" timestamp="1606906933557">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2000" y="278" key="Vcs.Push.Dialog.v2/3360.23.1920.1057/0.23.1440.798/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606906933557" />
     <state x="2107" y="261" width="586" height="490" key="find.popup" timestamp="1606804702322">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2107" y="261" width="586" height="490" key="find.popup/3360.23.1920.1057/0.23.1440.792/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606804702322" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="forest[currentY]" language="go" />
+        <watch expression="forest[currentY][30]" language="go" />
+        <watch expression="forest[currentY][currentX]" language="go" />
+        <watch expression="len(forest)" />
+        <watch expression="rune(forest[currentY][currentX])" />
+      </configuration>
+      <configuration name="GoTestRunConfiguration">
+        <watch expression="len(forest[currentY])" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

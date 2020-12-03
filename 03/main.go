@@ -36,7 +36,7 @@ func part1(file *os.File) string {
 		log.Fatal(err)
 	}
 
-	return fmt.Sprint(0)
+	return fmt.Sprint(traverseForest(strings, 3, 1, 0, 0))
 }
 
 func part2(file *os.File) string {
@@ -51,5 +51,27 @@ func part2(file *os.File) string {
 		log.Fatal(err)
 	}
 
-	return fmt.Sprint(0)
+	total := traverseForest(strings, 1, 1, 0, 0)
+	total *= traverseForest(strings, 3, 1, 0, 0)
+	total *= traverseForest(strings, 5, 1, 0, 0)
+	total *= traverseForest(strings, 7, 1, 0, 0)
+	total *= traverseForest(strings, 1, 2, 0, 0)
+
+	return fmt.Sprint(total)
+}
+
+func traverseForest(forest []string, diffX, diffY, currentX, currentY int) int {
+	hasTree := 0
+	currentX = (currentX + diffX) % len(forest[currentY])
+	currentY = currentY + diffY
+
+	if currentY > len(forest)-1 {
+		return hasTree
+	}
+
+	if rune(forest[currentY][currentX]) == '#' {
+		hasTree = 1
+	}
+
+	return traverseForest(forest, diffX, diffY, currentX, currentY) + hasTree
 }
